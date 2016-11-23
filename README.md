@@ -1,7 +1,14 @@
-# gpmdp-np
+# gpmdp-np 1.0.0
 ### Google Play Music Desktop Player - Now Playing
 
 A tool to export the currently playing song (and relevant metadata) to a file
+
+### Requirements to Run
+* Google Play Music Desktop Player 4.0.0 or Higher
+* The WebSocket API is enabled in GPMDP
+
+### Requirements to Build
+* go1.7
 
 ### Config
 
