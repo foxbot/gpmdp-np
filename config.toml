@@ -1,0 +1,6 @@
+UpdateTextOnPause = true
+DownloadTrackCover = true
+
+[[Output]]
+Path = "playing.txt"
+Format = "{{artist}} - {{track}}"
