@@ -9,7 +9,7 @@ type Track struct {
 	Title		string		`json:"title"`
 	Artist		string		`json:"artist"`
 	Album		string		`json:"album"`
-	AlbumArtURL	string		`json:"albumArt"`
+	AlbumArt	string		`json:"albumArt"`
 }
 
 type Time struct {

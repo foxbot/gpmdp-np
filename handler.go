@@ -54,10 +54,10 @@ func notify() {
 		config = loadConfig()
 	}
 
-	if config.DownloadCover && len(track.AlbumArtURL) > 0 {
-		downloadFromUrl(track.AlbumArtURL, "cover.png")
+	if config.DownloadCover && len(track.AlbumArt) > 0 {
+		downloadFromUrl(track.AlbumArt + "=s256", "cover.png")
 	} else if config.DownloadCover {
-		log.Println("No album cover for track (len:", len(track.AlbumArtURL), ")")
+		log.Println("No album cover for track (url:", track.AlbumArt, ")")
 	}
 
 	for _, output := range config.Outputs {
